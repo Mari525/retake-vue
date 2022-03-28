@@ -4,15 +4,9 @@
     <v-row>
       <v-col class="col-4 col-md-2">
         <nav class="d-flex flex-column ml-5">
-          <v-btn outlined class="mb-5">
-            <nuxt-link to="/" class="white--text">Главная</nuxt-link>
-          </v-btn>
-          <v-btn outlined class="mb-5">
-            <nuxt-link to="/about" class="white--text">О нас</nuxt-link>
-          </v-btn>
-          <v-btn outlined>
-            <nuxt-link to="/events" class="white--text">События</nuxt-link>
-          </v-btn>
+          <nuxt-link to="/" class="white--text text-button">Главная</nuxt-link>
+          <nuxt-link to="/about" class="white--text text-button">О нас</nuxt-link>
+          <nuxt-link to="/events" class="white--text text-button">События</nuxt-link>
         </nav>
         <div class="mt-10 ml-5">
           <p class="text-center">Зарегистрировано погодных событий: 
