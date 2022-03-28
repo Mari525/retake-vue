@@ -7,7 +7,7 @@
 			<v-card elevation="2" outlined shaped width="300" class="mb-10"
 			v-for="event in eventsList" :key="event.id" :event="event"
 			>
-				<v-card-title>Событие {{ event.id }}</v-card-title>
+				<!-- <v-card-title>Событие {{ event.id }}</v-card-title> -->
 				<v-card-text>
 					<v-img :src="cardImg(event.type)" width="290"></v-img>
 				</v-card-text>
